@@ -1,4 +1,5 @@
-#Random Forest parameter
+#Random Forest Parameters
+
 x: independent variables of training set. To keep things minimal and simple I am not creating a separate fit method hence the base class            constructor will accept the training set.
 y: the corresponding dependent variables necessary for supervised learning (Random forest is a supervised learning technique)
 n_trees : number of uncorrelated trees we ensemble to create the random forest.
